@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Tree</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        :root {
+            --body-bg-color: #FAF7FD;
+            --purple: #BB99DD;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            background: var(--body-bg-color);
+            color: var(--purple);
+        }
+
+        .session{
+            text-align: center;
+        }
+
+        .one{
+            margin-top: 50px;
+        }
+
+        .one > div{
+            margin: 0 auto;
+            width: 212px;
+            height: 212px;
+            border: 2px solid var(--purple);
+            border-radius: 300px;
+        }
+        .one div div{
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 200px;
+            background-image: url(img/eu.JPG);
+            background-position: -36px center;
+            background-size: cover;
+            margin: 4.2px 4.4px;
+        }
+
+        .one p{
+            margin-top: 15px;
+            margin-bottom: 25px;
+            font-weight: 300;
+        }
+
+        .two button{
+            width: 326px;
+            height: 49px;
+            border-radius: 5px;
+            background: none;
+            outline: none;
+            border: 2px solid var(--purple);
+            margin-bottom: 13px;
+        }
+
+        .two a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--purple);
+        }
+
+        .three{
+            margin: 50px 0px 0px 0px;
+        }
+        
+        .three img{
+            padding: 0px 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="session one">
+        <div>
+            <div></div>
+        </div>
+        <p>@instagram</p>
+    </div>
+
+    <div class="session two">
+        <button><a href="">LINK 1</a></button> <br>
+        <button><a href="">LINK 2</a></button> <br>
+        <button><a href="">LINK 3</a></button> <br>
+        <button><a href="">LINK 4</a></button> <br>
+    </div>
+
+    <div class="session three">
+        <img src="img/twitter.svg" alt="">
+        <img src="img/twitch.svg" alt="">
+        <img src="img/instagram.svg" alt="">
+        <img src="img/linkedin.svg" alt="">
+        <img src="img/github.svg" alt="">
+    </div>
+
+
+</body>
+</html>
